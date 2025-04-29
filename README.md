@@ -129,6 +129,9 @@ Projeto de baixa fidelidade produzido via Figma: https://www.figma.com/design/qW
 
 Link trello:https://trello.com/invite/b/680ea30faa34526127e002bc/ATTI4975732cb7a3dada6c675371ebb001ea37FAAA9F/literacao
 
+Diagrama de caso de uso: ![diagrama- png](https://github.com/user-attachments/assets/2021d760-5d17-4eeb-bab8-ab82b91aff1e)
+
+
 
 
 
