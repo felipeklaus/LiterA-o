@@ -1,3 +1,4 @@
+/* Estilos gerais do corpo da página */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -6,6 +7,7 @@ body {
   color: #333;
 }
 
+/* Cabeçalho do site */
 header {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
@@ -15,12 +17,13 @@ header {
   align-items: center;
 }
 
+/* Título principal no cabeçalho */
 header h1 {
   margin: 0;
   color: black;
- 
 }
 
+/* Links do menu de navegação */
 nav a {
   margin-left: 1rem;
   color: rgb(0, 0, 0);
@@ -28,16 +31,18 @@ nav a {
   font-weight: bold;
 }
 
+/* Efeito ao passar o mouse nos links do menu */
 nav a:hover {
   text-decoration: underline;
 }
 
+/* Seção principal de destaque */
 .hero {
   position: relative;
   display: left;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 70vh;
   background-color: #40a670;
   text-align: justify;
   padding: 2rem;
@@ -45,6 +50,7 @@ nav a:hover {
  
 }
 
+/* Container da imagem na seção hero */
 .hero-image {
   position: absolute;
   bottom: 0;
@@ -58,12 +64,14 @@ nav a:hover {
   
 }
 
+/* Estilo da imagem dentro do container hero-image */
 .hero-image img {
   height: 100%;
   max-height: 100%;
   width: auto;
 }
 
+/* Conteúdo textual da seção hero */
 .hero-content {
   max-width: 940px;
   z-index: 1;
@@ -75,12 +83,14 @@ nav a:hover {
 }
 
 
+/* Seção do formulário de doação */
 .form-section {
   padding: 2rem;
   background-color: #ffffff;  
  
 }
 
+/* Estilo do formulário */
 form {
   display: flex;
   flex-direction: column;
@@ -89,12 +99,14 @@ form {
   margin: 0 auto;
 }
 
+/* Campos de entrada do formulário */
 input {
   padding: 0.7rem;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
+/* Botão do formulário */
 button {
   background-color: #40a670;
   color: white;
@@ -105,20 +117,24 @@ button {
   font-size: 1rem;
 }
 
+/* Efeito ao passar o mouse no botão */
 button:hover {
   background-color: #345250;
 }
 
+/* Seção de tipos de livros */
 .tipos-livros {
   padding: 2rem;
   background-color: #40a670;
 }
 
+/* Lista de tipos de livros */
 .tipos-livros ul {
   list-style-type: square;
   padding-left: 2rem;
 }
 
+/* Seção de coleta de doações */
 .coleta {
   padding: 2rem;
   text-align: center;
@@ -126,6 +142,7 @@ button:hover {
   font-style: italic;
 }
 
+/* Rodapé */
 footer {
   text-align: center;
   padding: 1rem;
@@ -133,19 +150,20 @@ footer {
   color: rgb(0, 0, 0);
 }
 
+/* Container do logo no cabeçalho */
 .logo-container {
   display: flex;
   align-items: center;
   gap: 0.3rem;
-  
-
 }
 
+/* Imagem do logo */
 .logo {
   width: 60px;
   height: auto;
 }
 
+/* Parágrafos gerais */
 p{
   font-size: 22px;
 }
