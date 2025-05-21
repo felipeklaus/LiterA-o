@@ -1,7 +1,3 @@
-main {
-  margin-top: 70px; /* Ajuste conforme a altura do seu header */
-}
-
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
@@ -23,10 +19,9 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -34,26 +29,15 @@ header h1 {
   color: rgb(8, 8, 8);
 }
 
-header {
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* mantém logo à esquerda e nav à direita */
-}
-
 nav {
   display: flex;
-  gap: 2rem;
-  justify-content: center; /* centraliza os links dentro do nav */
-  align-items: center;
-  flex: 1; /* faz o nav ocupar o espaço disponível entre logo e borda direita */
+  gap: 1rem;
+  margin-right: 2rem;
 }
 
 nav a {
-  text-decoration: none;
   color: rgb(0, 0, 0);
+  text-decoration: none;
   font-weight: bold;
 }
 
@@ -63,40 +47,30 @@ nav a:hover {
 
 .hero {
   position: relative;
-  display: left;
-  justify-content: center;
+  display: flex;
+  justify-content: flex-start; /* Alinha conteúdo à esquerda */
   align-items: center;
-  height: 90vh;
-  background-color: #2e214b;
+  height: 70vh;
   text-align: justify;
   padding: 2rem;
   overflow: hidden;
-}
+  margin-top: 92px;
 
-.hero-image {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 80%;
-  max-height: 100%;
-  z-index: 0;
-  display: flex;
-  justify-content: right;
-}
-
-.hero-image img {
-  height: 100%;
-  max-height: 100%;
-  width: auto;
+  background-image: url('Livros.jpg');
+  background-size: cover;        /* Preenche toda a área */
+  background-repeat: no-repeat;  /* Evita repetição da imagem */
+  background-position: center;   /* Centraliza a imagem */
 }
 
 .hero-content {
-  max-width: 940px;
-  z-index: 1;
-  background-color: rgba(255, 255, 255, 0.85);
-  padding: 4rem;
+  max-width: 930px;
+  z-index: 3;
+  background-color: rgba(77, 0, 54, 0.75); /* Menos opaco */
+  color: white;
+  padding: 1rem 2rem;
   border-radius: 8px;
   box-shadow: 0px 4px 15px black;
+  margin-left: 1rem; /* Move para a esquerda */
 }
 
 .form-section {
@@ -169,4 +143,8 @@ footer {
 
 p {
   font-size: 22px;
+}
+
+img{
+  display: none;
 }
