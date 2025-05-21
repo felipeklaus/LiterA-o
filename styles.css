@@ -1,13 +1,19 @@
-/* Estilos gerais do corpo da página */
+main {
+  margin-top: 70px; /* Ajuste conforme a altura do seu header */
+}
+
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
 }
 
-/* Cabeçalho do site */
+.tipos-livros {
+  color: rgb(210, 186, 255);
+}
+
 header {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
@@ -15,42 +21,58 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Título principal no cabeçalho */
 header h1 {
   margin: 0;
-  color: black;
+  color: rgb(8, 8, 8);
 }
 
-/* Links do menu de navegação */
-nav a {
-  margin-left: 1rem;
+header {
+  background-color: #ffffff;
   color: rgb(0, 0, 0);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* mantém logo à esquerda e nav à direita */
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  justify-content: center; /* centraliza os links dentro do nav */
+  align-items: center;
+  flex: 1; /* faz o nav ocupar o espaço disponível entre logo e borda direita */
+}
+
+nav a {
   text-decoration: none;
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
-/* Efeito ao passar o mouse nos links do menu */
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Seção principal de destaque */
 .hero {
   position: relative;
   display: left;
   justify-content: center;
   align-items: center;
-  height: 70vh;
-  background-color: #40a670;
+  height: 90vh;
+  background-color: #2e214b;
   text-align: justify;
   padding: 2rem;
   overflow: hidden;
- 
 }
 
-/* Container da imagem na seção hero */
 .hero-image {
   position: absolute;
   bottom: 0;
@@ -60,18 +82,14 @@ nav a:hover {
   z-index: 0;
   display: flex;
   justify-content: right;
-  
-  
 }
 
-/* Estilo da imagem dentro do container hero-image */
 .hero-image img {
   height: 100%;
   max-height: 100%;
   width: auto;
 }
 
-/* Conteúdo textual da seção hero */
 .hero-content {
   max-width: 940px;
   z-index: 1;
@@ -79,18 +97,13 @@ nav a:hover {
   padding: 4rem;
   border-radius: 8px;
   box-shadow: 0px 4px 15px black;
- 
 }
 
-
-/* Seção do formulário de doação */
 .form-section {
   padding: 2rem;
-  background-color: #ffffff;  
- 
+  background-color: #ffffff;
 }
 
-/* Estilo do formulário */
 form {
   display: flex;
   flex-direction: column;
@@ -99,16 +112,14 @@ form {
   margin: 0 auto;
 }
 
-/* Campos de entrada do formulário */
 input {
   padding: 0.7rem;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-/* Botão do formulário */
 button {
-  background-color: #40a670;
+  background-color: #684da1;
   color: white;
   border: none;
   padding: 0.9rem;
@@ -117,24 +128,20 @@ button {
   font-size: 1rem;
 }
 
-/* Efeito ao passar o mouse no botão */
 button:hover {
-  background-color: #345250;
+  background-color: #2e214b;
 }
 
-/* Seção de tipos de livros */
 .tipos-livros {
   padding: 2rem;
-  background-color: #40a670;
+  background-color: #604697;
 }
 
-/* Lista de tipos de livros */
 .tipos-livros ul {
   list-style-type: square;
   padding-left: 2rem;
 }
 
-/* Seção de coleta de doações */
 .coleta {
   padding: 2rem;
   text-align: center;
@@ -142,7 +149,6 @@ button:hover {
   font-style: italic;
 }
 
-/* Rodapé */
 footer {
   text-align: center;
   padding: 1rem;
@@ -150,20 +156,17 @@ footer {
   color: rgb(0, 0, 0);
 }
 
-/* Container do logo no cabeçalho */
 .logo-container {
   display: flex;
   align-items: center;
   gap: 0.3rem;
 }
 
-/* Imagem do logo */
 .logo {
   width: 60px;
   height: auto;
 }
 
-/* Parágrafos gerais */
-p{
+p {
   font-size: 22px;
 }
