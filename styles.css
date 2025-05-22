@@ -7,7 +7,7 @@ body {
 }
 
 .tipos-livros {
-  color: rgb(210, 186, 255);
+  color: white;
 }
 
 header {
@@ -65,7 +65,7 @@ nav a:hover {
 .hero-content {
   max-width: 930px;
   z-index: 3;
-  background-color: rgba(77, 0, 54, 0.75); /* Menos opaco */
+  background-color: rgba(2, 89, 189, 0.75); /* Menos opaco */
   color: white;
   padding: 1rem 2rem;
   border-radius: 8px;
@@ -93,7 +93,7 @@ input {
 }
 
 button {
-  background-color: #684da1;
+  background-color: rgba(2, 89, 189, 0.75);
   color: white;
   border: none;
   padding: 0.9rem;
@@ -103,12 +103,12 @@ button {
 }
 
 button:hover {
-  background-color: #2e214b;
+  background-color: rgba(0, 63, 136, 0.75);
 }
 
 .tipos-livros {
   padding: 2rem;
-  background-color: #604697;
+  background-color: rgba(2, 89, 189, 0.75);
 }
 
 .tipos-livros ul {
@@ -145,6 +145,3 @@ p {
   font-size: 22px;
 }
 
-img{
-  display: none;
-}
