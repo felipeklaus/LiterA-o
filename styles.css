@@ -13,15 +13,19 @@ body {
 header {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
-  padding: 1rem;
+  padding: 0.80rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  top: 0;
-  width: 100%;
+  top: 15px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 1000px;
   z-index: 10;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
 }
 
 header h1 {
@@ -48,29 +52,31 @@ nav a:hover {
 .hero {
   position: relative;
   display: flex;
-  justify-content: flex-start; /* Alinha conteúdo à esquerda */
+  justify-content: flex-start;
   align-items: center;
-  height: 70vh;
+  height: 90vh;
   text-align: justify;
   padding: 2rem;
   overflow: hidden;
-  margin-top: 92px;
+  margin-top: 0; 
 
   background-image: url('Livros.jpg');
-  background-size: cover;        /* Preenche toda a área */
-  background-repeat: no-repeat;  /* Evita repetição da imagem */
-  background-position: center;   /* Centraliza a imagem */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 5%; 
 }
-
 .hero-content {
   max-width: 930px;
   z-index: 3;
-  background-color: rgba(2, 89, 189, 0.75); /* Menos opaco */
+  background-color: rgba(2, 89, 189, 0.75); 
   color: white;
   padding: 1rem 2rem;
   border-radius: 8px;
   box-shadow: 0px 4px 15px black;
-  margin-left: 1rem; /* Move para a esquerda */
+  margin-left: 1rem; 
+  margin-top: 100px;
+  
+
 }
 
 .form-section {
@@ -137,7 +143,7 @@ footer {
 }
 
 .logo {
-  width: 60px;
+  width: 65px;
   height: auto;
 }
 
