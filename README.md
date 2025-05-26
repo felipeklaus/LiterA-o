@@ -3,7 +3,7 @@
 Projeto Integrador - LiterAção
 
 Descrição detalhada do problema a ser resolvido: 
-A ideia seria desenvolver uma página em que seja feita uma apresentação do projeto de arrecadação, e um meio de contato / endereços para envio. Podemos abrir mais horizontes futuramente.
+A ideia do projeto é desenvolver uma landing page para arrecadação de objetos literários que serão destinados à Penitenciária Estadual de Foz do Iguaçu/PR.
 
 
 1. Requisitos Funcionais (RF)
