@@ -15,14 +15,14 @@
     <nav class="navbar">
       <a class="logo-text">
         <img src="../public/logo.png" class="logo-nav">LiterAção</a>
-      <a href="">Sobre nós</a>
-      <a href="">Onde doar?</a>
-      <a href="">Contato</a>
+      <a href="#sobre-nos">Sobre nós</a>
+      <a href="#onde-doar">Onde doar?</a>
+      <a href="#contato-telefone">Contato</a>
     </nav>
   </header>
 
   <main>
-    <section class="about">
+    <section class="about" id="sobre-nos">
       <div class="about-content">
         <h1>Sobre o Projeto LiterAção</h1>
         <p class="about-text">
@@ -32,12 +32,11 @@
         </p>
       </div>
       <div class="about-image">
-        <h2>Transforme Vidas com Palavras – Doe um Livro, Abra um Mundo</h2> 
-        <img src="../public/logo.png" alt="">
+        <h2>Transforme Vidas com atitude, doe um Livro, abra um Mundo!</h2> 
       </div>
     </section>
 
-    <section class="donation">
+    <section class="donation" id="contato">
       <h2>Registro de Doação</h2>
       <form id="donationForm">
         <div class="donor-info">
@@ -51,11 +50,7 @@
           <input type="tel" id="telefone" name="telefone" />
         </div>
         <div class="donation-details">
-          <label for="local">Local de entrega:</label>
-          <select id="local" name="local" required>
-            <option value="">-- Selecione um local --</option>
-            <option value="feminina">Penitenciária Feminina</option>
-            <option value="masculina">Penitenciária Masculina</option>
+          
           </select>
 
           <label for="livros">Quais livros deseja doar?</label>
@@ -79,11 +74,16 @@
       <p>Certifique-se de que os livros estejam em bom estado de conservação.</p>
     </section>
 
-    <section class="coleta">
+    <section class="coleta" id="onde-doar">
       <h2>Onde Doar</h2>
       <p>Você pode entregar suas doações no ponto abaixo:</p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.2816441513924!2d-54.515493230363624!3d-25.500824788141554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6974937f96953%3A0xd6f29bf75685190b!2sPenitenci%C3%A1ria%20Estadual%20de%20Foz%20do%20Igua%C3%A7u%20-%20R.%20Merc%C3%BArio%2C%20850%20-%20Parque%20Res.%20Tres%20Fronteiras%2C%20Foz%20do%20Igua%C3%A7u%20-%20PR%2C%2085859-675!5e0!3m2!1spt-BR!2sbr!4v1747835639230!5m2!1spt-BR!2sbr" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
       </iframe>
+    </section>
+
+    <!-- Seção de contato minimalista -->
+    <section id="contato-telefone" class="contato-telefone">
+      <p>Contato: <a href="tel:+554530302828">+55 (45) 3030-2828</a></p>
     </section>
 
   </main>
